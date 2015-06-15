@@ -21,6 +21,8 @@ Skeletal app to illustrate an issue with a System.OutOfMemoryException being thr
 
 ````
 
+Full example output:
+
 ````
 2015-06-15 11:51:46,864 [  8] DEBUG (null) - JoinPDFDocument()...
 2015-06-15 11:51:46,937 [  8] DEBUG (null) - PDF document 1/2 ../../PDF files/example_001.pdf...
