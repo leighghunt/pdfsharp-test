@@ -18,13 +18,13 @@ namespace PDFTest
 
 
 
-            program.JoinPDFDocuments(new List<string>() { "../../PDF files/Report.pdf", "../../PDF files/Arboretum.pdf" });
-            program.JoinPDFDocuments(new List<string>() { "../../PDF files/Report.pdf", "../../PDF files/Report.pdf" });
-            program.JoinPDFDocuments(new List<string>() { "../../PDF files/Arboretum.pdf", "../../PDF files/Arboretum.pdf" });
+            program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/example_001.pdf" });
+            program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/example_009.pdf" });
+            program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/example_010.pdf" });
 
             program.JoinPDFDocuments(new List<string>() { "../../PDF files/Troublesome.pdf", "../../PDF files/Troublesome.pdf" });
 
-            program.JoinPDFDocuments(new List<string>() { "../../PDF files/Report.pdf", "../../PDF files/Troublesome.pdf" });
+            program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/Troublesome.pdf" });
 
         }
 
