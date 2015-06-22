@@ -23,6 +23,7 @@ namespace PDFTest
             program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/example_010.pdf" });
 
             program.JoinPDFDocuments(new List<string>() { "../../PDF files/Troublesome.pdf", "../../PDF files/Troublesome.pdf" });
+            program.JoinPDFDocuments(new List<string>() { "../../PDF files/Troublesome-2.pdf", "../../PDF files/Troublesome-2.pdf" });
 
             program.JoinPDFDocuments(new List<string>() { "../../PDF files/example_001.pdf", "../../PDF files/Troublesome.pdf" });
 
